@@ -13,7 +13,7 @@ function calcDisplay(e) {
  const isNumber = value === '√' || value === '.' || !isNaN(isNum)
  const isEmpty = inputedValue.length < 1
 
- if (inputDisplay.innerText.length < 18) {
+ if (inputDisplay.innerText.length < 14) {
   if (!isNumber && isEmpty) return
   if (value === '=') {
    runCalc()
